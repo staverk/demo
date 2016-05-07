@@ -1,0 +1,10 @@
+application: claseuninorte
+version: 1
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /loaderio-b8289a2320b2627299dd5bc60319a74a.txt
+  script: loaderio-b8289a2320b2627299dd5bc60319a74a.txt
+- url: /.*
+  script: index.php
